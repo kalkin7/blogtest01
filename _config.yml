@@ -1,36 +1,36 @@
 # Harmony Jekyll theme general configurations 
 
 # Base URL
-baseurl: /harmony
+baseurl: /
 
 # Site live URL
-url: http://webcreate.lk/harmony
+url: http://blogtest01.kalkinblog.tk
 
 # Localhost 
 #url: http://192.168.0.102:4000
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: Harmony
+  name: blogtest01
   # Little description about your site
-  description: Harmony is free responsive jekyll theme.
+  description: blogtest01 Harmony theme test.
   meta_description: Harmony is free responsive jekyll theme. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Gayan Virajith
+    name: kalkin7
     email: gayanvirajith@gmail.com
     url: http://gayanvirajith.github.io
 
   # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
+  google_analytics_key: 
 
   # Profile links, leave blank to ignore
   social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +GayanVirajith
-    dribble: gayan
+    github: 
+    twitter: 
+    facebook: 
+    gplus: 
+    dribble: 
     pinterest: 
   # Toggle disclaimer in footer
   show_disclaimer: true
