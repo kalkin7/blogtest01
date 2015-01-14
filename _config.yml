@@ -10,7 +10,7 @@ url:         "http://blogtest01.kalkinblog.tk"
 google_analytics:
 
 # Optional features
-animated:           true
+animated:           false
 show_related_posts: true
 show_post_footers:  true
 
