@@ -16,10 +16,10 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 ### Code, with syntax highlighting
 
-Code blocks use the [solarized](http://ethanschoonover.com/solarized) theme. Both the light and
-dark versions are included, so you can swap them out easily. _Solarized Dark_ is the default.
+Here's an example of some ruby code with line anchors.
 
-{% highlight ruby %}
+{% highlight ruby lineanchors %}
+# The most awesome of classes
 class Awesome < ActiveRecord::Base
   include EvenMoreAwesome
 
@@ -29,8 +29,43 @@ class Awesome < ActiveRecord::Base
   def initialize(email, name = nil)
     self.email = email
     self.name = name
+    self.favorite_number = 12
+    puts 'created awesomeness'
+  end
+
+  def email_format
+    email =~ /\S+@\S+\.\S+/
   end
 end
+{% endhighlight %}
+
+Here's some CSS:
+
+{% highlight css %}
+.foobar {
+  /* Named colors rule */
+  color: tomato;
+}
+{% endhighlight %}
+
+Here's some JavaScript:
+
+{% highlight js %}
+var isPresent = require('is-present')
+
+module.exports = function doStuff(things) {
+  if (isPresent(things)) {
+    doOtherStuff(things)
+  }
+}
+{% endhighlight %}
+
+Here's some HTML:
+
+{% highlight html %}
+<div class="m0 p0 bg-blue white">
+  <h3 class="h1">Hello, world!</h3>
+</div>
 {% endhighlight %}
 
 # Headings!
@@ -56,6 +91,8 @@ This allows your content to have the proper informational and contextual hierarc
 ### Images look great, too
 
 ![desk](https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png)
+
+_![desk](https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png)_
 
 
 ### There are also pretty colors
