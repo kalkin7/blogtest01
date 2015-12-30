@@ -5,7 +5,7 @@ author:      Kalkin7
 description: "Pixyll Jekyll Theme Test Blog."
 baseurl:     ""
 url:         "http://blogtest01.kalkinblog.tk"
-date_format: "%b %-d, %Y"
+date_format: "%Y년 %-m월 %-d일"
 
 # Google services
 google_analytics:
