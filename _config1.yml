@@ -1,11 +1,11 @@
 # Site settings
-title:       Kalkinblog's Test Sites
-email:       kalkinblog1@gmail.com
-author:      kalkinblog1
-description: "Pixyll Jekyll Theme Test Blog."
+title:       Pixyll
+email:       your_email@example.com
+author:      John Otander
+description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://blogtest01.kalkinblog.tk"
-date_format: "%Y년 %-m월 %-d일"
+url:         "http://pixyll.com"
+date_format: "%b %-d, %Y"
 
 # Google services
 google_analytics:
@@ -102,4 +102,4 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
-exclude: ["vendor", "node_modules", "gulpfile.js"]
+exclude: [vendor]
